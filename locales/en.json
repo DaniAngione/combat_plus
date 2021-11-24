@@ -1,0 +1,140 @@
+{
+   "ui": {
+      "data": {
+         "tooltips": {
+            "intellect": {
+               "display_name": "Intellect",
+               "description": "The brightness of a hearthling, their capacity to memorize, understand and work ideas.",
+               "bullet_points": {
+                  "000": "Higher intellect will result in shorter cooldowns for magical combat abilities</br>",
+                  "001": "Intellect is the proficiency attribute for certain abilities and weapons</br>",
+                  "002": "Is based on the hearthling's Mind"
+               }
+            },
+            "awareness": {
+               "display_name": "Awareness",
+               "description": "The perception of a hearthling, their ability to think and react fast.",
+               "bullet_points": {
+                  "000": "This attribute allows hearthlings to dodge attacks more efficiently and more often</br>",
+                  "001": "It also has an influence on the determination of their dexterity</br>",
+                  "002": "Is based on the hearthling's Mind"
+               }
+            },
+            "dexterity": {
+               "display_name": "Dexterity",
+               "description": "The overall agility and precision of this hearthling when moving their body.",
+               "bullet_points": {
+                  "000": "It directly influences how difficult it is to hit this hearthling</br>",
+                  "001": "Dexterity is the proficiency attribute for most ranged abilities and weapons</br>",
+                  "002": "Influences on how often hearthlings will inflict Critical hits when fighting",
+                  "003": "Is based on the hearthling's Body and Awareness"
+               }
+            },
+
+            "stamina": {
+               "description": "This hearthling's physical endurance or vitality; how resilient they are.",
+               "bullet_points": {
+                  "000": "Higher Stamina will result in shorter cooldowns for physical combat abilities</br>",
+                  "001": "Each point increases their maximum health by 1</br>",
+                  "002": "This attribute allows hearthlings to sleep in discomfort without being affected by it",
+                  "003": "Is based on the hearthling's Body"
+               }
+            },
+            "compassion": {
+               "description": "How likely this hearthling is to help out someone in peril or befriend others.",
+               "bullet_points": {
+                  "000": "Determines how many pets a Trapper can tame",
+                  "001": "Boosts the happiness of a Shepherd's animals",
+                  "002": "Increases the efficiency of all Healing powers and abilities",
+                  "003": "Is based on the hearthling's Spirit"
+               }
+            },
+            "diligence": {
+               "description": "A hearthling's dedication and discipline; how long can they work or fight.",
+               "bullet_points": {
+                  "000": "Influences the duration and effectiveness of their sleep",
+                  "001": "Determines how fast they can repair things if their job allows them to",
+                  "002": "Is based on the hearthling's Mind"
+               }
+            },
+            "willpower": {
+               "description": "How likely this hearthling is to resist enemy charms or cling to their life.",
+               "bullet_points": {
+                  "000": "Determines the speed of their health regeneration",
+                  "001": "Influences for how long they resist death after being incapacitated",
+                  "002": "Is based on the hearthling's Spirit"
+               }
+            },
+            "courage": {
+               "description": "A hearthling's bravery in the face of danger; how eager they are to risk themselves.",
+               "bullet_points": {
+                  "000": "Determines their chance to flee from combat or threats",
+                  "001": "Influences how menacing and intimidating they are, increasing their likelihood of being targeted",
+                  "002": "Is based on the hearthling's Spirit"
+               }
+            },
+            "muscle": {
+               "description": "A hearthling's brawn and raw strength; their physical and martial prowess.",
+               "bullet_points": {
+                  "000": "Muscle is the proficiency attribute for most melee abilities and weapons</br>",
+                  "001": "Greatly influences how menacing and intimidating they are, increasing their likelihood of being targeted",
+                  "002": "Is based on the hearthling's Body"
+               }
+            },
+            "speed": {
+               "description": "How fast this hearthling moves; how quick their reflexes are.",
+               "bullet_points": {           
+                  "000": "This attribute allows hearthlings to dodge attacks more efficiently",
+                  "001": "Is based on the hearthling's Body"
+               }
+            },
+            "curiosity": {
+               "description": "How much this hearthling enjoys new experiences and how well they adapt to it.",
+               "bullet_points": {
+                  "000": "This attribute increases the amount of experience gained by this hearthling",
+                  "001": "Curiosity also influences how quickly a hearthling feels bored by repetitive tasks or meals",
+                  "002": "Is based on the hearthling's Mind"
+               }
+            },
+            "body": {
+               "description": "Competence at physical activities.</br></br>Hearthlings with a high Body stat will move faster, possess greater finesse when dodging or handling weapons, attack harder, and survive tougher challenges.</br></br>Determines the maximum health increase when leveling up.</br></br>Influences Muscle, Dexterity, Speed, Stamina."
+            },
+            "mind": {
+               "description": "The faculties for thinking and perceiving the world.</br></br>A high Mind stat allows a hearthling to quickly grasp mental activities such as crafting, or quickly improve their combat abilities. They will be better with magical abilities and have greater discipline.</br></br>Influences Intellect, Diligence, Curiosity, Awareness."
+            },
+            "spirit": {
+               "description": "Their resolve, faith in other people and themselves.</br></br>A high Spirit hearthling will heal faster, easily befriend animals, stand strong against enemies without faltering, craft exceptional things more often and handle healing spells and abilities with great skill.</br></br>Influences Courage, Willpower, Compassion, Inspiration."
+            }
+         }
+      },
+      "shell": {
+         "select_game_story": {
+            "game_modes": {
+               "gentle": {
+                  "description": "Enemies are slightly easier than in Normal - and with a slower pace. Progression and events have longer intervals between each other. Wounds and such have a lesser impact on health."
+               }
+            }
+         }
+      },
+      "game": {
+         "unit_frame": {
+            "equipment_types": {
+               "bow": "Bow (Dexterity)",
+               "crossbow": "Crossbow (Dexterity)",
+               "mainhand": "Main-hand (Muscle)",
+               "offhand": "Off-hand (Dexterity)",
+               "twohanded": "Two-handed (Muscle)",
+               "cleric_tome": "Healing Tome (Intellect)",
+               "cleric_scepter": "Holy Scepter (Intellect)"
+            }
+         }
+      }
+   },
+   "stonehearth_mixins": {
+      "base_human": {
+         "job": {
+            "level_up_perk_description": "Max Health +[str(i18n_data.max_health_adjustment)]"
+         }
+      }
+   }
+}

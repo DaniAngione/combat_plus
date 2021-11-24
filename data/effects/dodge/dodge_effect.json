@@ -1,0 +1,44 @@
+{
+   "type": "effect",
+   "tracks": {
+      "unit_status_effect": {
+         "type": "unit_status_effect",
+         "material": {
+            "name": "materials/billboard.material.json",
+            "samplers": [
+               {
+                  "name": "albedoMap",
+                  "map": "/combat_plus/data/horde/materials/thoughts/dodge/dodge_.png",
+                  "numAnimationFrames": 21,
+                  "frameRate": 28,
+                  "numLoops": 1
+               }
+            ]
+         },
+         "width": 3,
+         "height": 3,
+         "xOffset": 0,
+         "yOffset": 0.15,
+         "bone": "ATTOVERCOG"
+      },
+      "dodge_sound": {
+         "type": "sound_effect",
+         "start_time": 0,
+         "loop": false,
+         "duration": 400,
+         "min_distance": 45,
+         "falloff": 7,
+         "volume": 65,
+         "max_instances": 8,
+         "track": {
+            "type": "one_of",
+            "items": [
+               "combat_plus:sounds:dodge_1",
+               "combat_plus:sounds:dodge_2",
+               "combat_plus:sounds:dodge_3",
+               "combat_plus:sounds:dodge_4"
+            ]
+         }
+      }
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 0.6
+      },
+      "additive_armor_modifier": {
+         "multiply": 1.5
+      },
+      "max_health": {
+         "multiply": 1.25
+      },
+      "multiplicative_target_difficulty": {
+         "multiply": 1.2
+      },
+      "multiplicative_attack_modifier": {
+         "multiply": 1.25
+      },
+      "multiplicative_dodge_modifier": {
+         "multiply": 1.1
+      }
+   }
+}

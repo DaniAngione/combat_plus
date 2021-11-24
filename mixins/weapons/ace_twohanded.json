@@ -1,0 +1,10 @@
+{
+   "components": {
+      "stonehearth:equipment_piece": {
+         "modifier": 1.2,
+         "equipment_types": [
+            "muscle"
+         ]
+      }
+   }
+}

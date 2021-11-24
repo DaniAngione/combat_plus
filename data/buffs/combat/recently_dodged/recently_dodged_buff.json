@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "invisible_to_player": true,
+   "duration": "30m",
+   "script": "combat_plus:buff_scripts:duration_based_on_attribute",
+   "script_info": {
+      "attribute": "awareness",
+      "reduction_per_step": "2m",
+      "value_per_step": 10,
+      "base_duration": "30m",
+      "min_duration": "2m"
+   },
+   "modifiers": {}
+}

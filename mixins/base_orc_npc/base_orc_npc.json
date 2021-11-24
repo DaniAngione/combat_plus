@@ -1,0 +1,23 @@
+{
+   "components": {
+      "stonehearth:attributes": {
+         "intellect": {
+            "type": "basic",
+            "value": 25
+         },
+         "awareness": {
+            "type": "basic",
+            "value": 55
+         },
+         "dexterity": {
+            "type": "basic",
+            "value": 50
+         },
+         "target_difficulty": {
+            "type": "basic",
+            "value": 10
+         }
+      }
+   },
+   "entity_data": {}
+}

@@ -1,0 +1,28 @@
+{
+   "constants": {     
+      "combat": {
+         "DODGE_COOLDOWN_BUFF": "combat_plus:buffs:combat:recently_dodged",
+         "DEFAULT_PANIC_THRESHOLD": 0.2,
+         "COMBAT_DIE": 20,                            "__comment": "The maximum number that a 'combat roll' can randomize to. It's like throwing dice with that many faces... Conveniently 20 by default.",
+         "DEFAULT_MUSCLE_PROFICIENCY": 18,            "__comment": "The default value that will be used for the 'muscle' attribute if the attacker has no specific values. Default: 18",
+         "DEFAULT_TARGET_DIFFICULTY": 12,             "__comment": "The default difficult for hitting a target that has no specific values. Default: 12",
+         "DEFAULT_TARGET_AWARENESS": 25,              "__comment": "The default value for awareness when calculating dodges. Default: 25",
+         "MIN_CRITICAL_DMG_MULTIPLIER": 2,            "__comment": "The minimum value by which damage is multiplied on a critical hit. Default: 2",
+         "MAX_CRITICAL_DMG_MULTIPLIER": 2,            "__comment": "The maximum value by which damage is multiplied on a critical hit. Default: 3",
+         "RNG_DMG_WIGGLE": 0.1,                       "__comment": "The percentage above or below the total calculated damage that the final damage can fluctuate between through RNG. Default: 0.1"
+
+      },
+      "attribute_effects": {
+         "ATTRIBUTE_DAMAGE_MULTIPLIER": 0.15,
+         "ATTRIBUTE_DAMAGE_BASE": 1,
+         "COMPASSION_HEAL_MULTIPLIER": 0.12,
+         "WILLPOWER_HEALTH_REGEN_MULTIPLIER": 0.1,
+         "WILLPOWER_HEALTH_REGEN_EXPONENT": 0.2,
+         "DEFAULT_CRITICAL_CHANCE": 0.05,             "__comment": "The default chance for a critical hit when the attacker has no specific attributes. Default: 0.05",
+         "ATTACK_BONUS_FRACTION": 0.1,                "__comment": "The sum of the attack proficiency attribute (Dex, Muscle, etc...) multiplied by all multipliers will then be multiplied by this. Default: 0.1",
+         "SPEED_DODGE_THRESHOLD": 20,                 "__comment": "An entity is unable to attempt a dodge if their 'Speed' is under this value. Default: 20",
+         "AWARENESS_DODGE_MULTIPLIER": 0.1,           "__comment": "What % of the awareness attribute will weigh on the dodge roll. Default: 0.1",
+         "SPEED_DODGE_MULTIPLIER": 0.01,              "__comment": "What % of the speed attribute will multiply the entirety of the dodge bonus. Default: 0.01"
+      }
+   }
+}

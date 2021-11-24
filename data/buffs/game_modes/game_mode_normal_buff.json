@@ -1,0 +1,25 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "invisible_to_player": true,
+   "modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 0.15
+      },
+      "additive_armor_modifier": {
+         "multiply": 1.1
+      },
+      "max_health": {
+         "multiply": 1.05
+      },
+      "multiplicative_target_difficulty": {
+         "multiply": 1.1
+      },
+      "multiplicative_attack_modifier": {
+         "multiply": 1.1
+      },
+      "multiplicative_dodge_modifier": {
+         "multiply": 1.05
+      }
+   }
+}

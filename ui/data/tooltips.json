@@ -1,0 +1,128 @@
+{
+   "tooltips": {
+      "intellect": {
+         "display_name": "i18n(combat_plus:ui.data.tooltips.intellect.display_name)",
+         "description": "i18n(combat_plus:ui.data.tooltips.intellect.description)",
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.intellect.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.intellect.bullet_points.001)",
+            "i18n(combat_plus:ui.data.tooltips.intellect.bullet_points.002)"
+         ]
+      },
+      "awareness": {
+         "display_name": "i18n(combat_plus:ui.data.tooltips.awareness.display_name)",
+         "description": "i18n(combat_plus:ui.data.tooltips.awareness.description)",
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.awareness.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.awareness.bullet_points.001)",
+            "i18n(combat_plus:ui.data.tooltips.awareness.bullet_points.002)"
+         ]
+      },
+      "dexterity": {
+         "display_name": "i18n(combat_plus:ui.data.tooltips.dexterity.display_name)",
+         "description": "i18n(combat_plus:ui.data.tooltips.dexterity.description)",
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.dexterity.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.dexterity.bullet_points.001)",
+            "i18n(combat_plus:ui.data.tooltips.dexterity.bullet_points.002)",
+            "i18n(combat_plus:ui.data.tooltips.dexterity.bullet_points.003)"
+         ]
+      },
+
+      "stamina": {
+         "description": "i18n(combat_plus:ui.data.tooltips.stamina.description)",
+         "mixintypes": {
+            "bullet_points": "override"
+         },
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.stamina.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.stamina.bullet_points.001)",
+            "i18n(combat_plus:ui.data.tooltips.stamina.bullet_points.002)",
+            "i18n(combat_plus:ui.data.tooltips.stamina.bullet_points.003)"
+         ]
+      },
+      "compassion": {
+         "description": "i18n(combat_plus:ui.data.tooltips.compassion.description)",
+         "mixintypes": {
+            "bullet_points": "override"
+         },
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.compassion.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.compassion.bullet_points.001)",
+            "i18n(combat_plus:ui.data.tooltips.compassion.bullet_points.002)",
+            "i18n(combat_plus:ui.data.tooltips.compassion.bullet_points.003)"
+         ]
+      },
+      "diligence": {
+         "description": "i18n(combat_plus:ui.data.tooltips.diligence.description)",
+         "mixintypes": {
+            "bullet_points": "override"
+         },
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.diligence.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.diligence.bullet_points.001)",
+            "i18n(combat_plus:ui.data.tooltips.diligence.bullet_points.002)"
+         ]
+      },
+      "willpower": {
+         "description": "i18n(combat_plus:ui.data.tooltips.willpower.description)",
+         "mixintypes": {
+            "bullet_points": "override"
+         },
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.willpower.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.willpower.bullet_points.001)",
+            "i18n(combat_plus:ui.data.tooltips.willpower.bullet_points.002)"
+         ]
+      },
+      "courage": {
+         "description": "i18n(combat_plus:ui.data.tooltips.courage.description)",
+         "mixintypes": {
+            "bullet_points": "override"
+         },
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.courage.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.courage.bullet_points.001)",
+            "i18n(combat_plus:ui.data.tooltips.courage.bullet_points.002)"
+         ]
+      },
+      "muscle": {
+         "description": "i18n(combat_plus:ui.data.tooltips.muscle.description)",
+         "mixintypes": {
+            "bullet_points": "override"
+         },
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.muscle.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.muscle.bullet_points.001)",
+            "i18n(combat_plus:ui.data.tooltips.muscle.bullet_points.002)"
+         ]
+      },
+      "speed": {
+         "description": "i18n(combat_plus:ui.data.tooltips.speed.description)",
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.speed.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.speed.bullet_points.001)"
+         ]
+      },
+      "curiosity": {
+         "description": "i18n(combat_plus:ui.data.tooltips.curiosity.description)",
+         "mixintypes": {
+            "bullet_points": "override"
+         },
+         "bullet_points": [
+            "i18n(combat_plus:ui.data.tooltips.curiosity.bullet_points.000)",
+            "i18n(combat_plus:ui.data.tooltips.curiosity.bullet_points.001)",
+            "i18n(combat_plus:ui.data.tooltips.curiosity.bullet_points.002)"
+         ]
+      },
+      "mind": {
+         "description": "i18n(combat_plus:ui.data.tooltips.mind.description)"
+      },
+      "body": {
+         "description": "i18n(combat_plus:ui.data.tooltips.body.description)"
+      },
+      "spirit": {
+         "description": "i18n(combat_plus:ui.data.tooltips.spirit.description)"
+      }
+   }
+}

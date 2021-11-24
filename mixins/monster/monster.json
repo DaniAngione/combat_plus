@@ -1,0 +1,55 @@
+{
+   "components": {
+      "stonehearth:attributes": {
+         "intellect": {
+            "type": "basic",
+            "value": 1
+         },
+         "awareness": {
+            "type": "basic",
+            "value": 30
+         },
+         "muscle": {
+            "type": "basic",
+            "value": 40
+         },
+         "dexterity": {
+            "type": "basic",
+            "value": 35
+         },
+         "target_difficulty": {
+            "type": "basic",
+            "value": 12
+         },
+         "critical_chance": {
+            "type": "basic",
+            "value": 0.05
+         },
+         "additive_attack_modifier": {
+            "type": "basic",
+            "value": 5
+         },
+         "multiplicative_target_difficulty": {
+            "type": "basic",
+            "value": 1
+         },
+         "additive_target_difficulty": {
+            "type": "basic",
+            "value": 0
+         },
+         "multiplicative_attack_modifier": {
+            "type": "basic",
+            "value": 1
+         },
+         "additive_dodge_modifier": {
+            "type": "basic",
+            "value": 0
+         },
+         "multiplicative_dodge_modifier": {
+            "type": "basic",
+            "value": 1
+         }
+      }
+   },
+   "entity_data": {}
+}

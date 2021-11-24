@@ -1,0 +1,9 @@
+{
+   "tracks": {
+      "sound": {
+         "min_distance": 42,
+         "falloff": 6,
+         "volume": 60
+      }
+   }
+}

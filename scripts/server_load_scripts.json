@@ -1,0 +1,5 @@
+{
+   "post_monkey_patching": {
+      "combat_plus.scripts.post_monkey_patching.repatches": true
+   }
+}

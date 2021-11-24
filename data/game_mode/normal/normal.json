@@ -1,0 +1,9 @@
+{
+   "monster_tuning_overrides": {
+      "default": {
+         "add_buffs": {
+            "normal_mode_buff": "combat_plus:buffs:game_mode:normal"
+         }
+      }
+   }
+}

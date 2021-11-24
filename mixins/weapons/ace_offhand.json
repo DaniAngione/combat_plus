@@ -1,0 +1,11 @@
+{
+   "components": {
+      "stonehearth:equipment_piece": {
+         "proficiency_attribute": "dexterity",
+         "modifier": 0.9,
+         "equipment_types": [
+            "dexterity"
+         ]
+      }
+   }
+}

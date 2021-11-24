@@ -1,0 +1,47 @@
+{
+   "type": "effect",
+   "duration": 400,
+   "tracks": {
+      "unit_status_effect": {
+         "type": "unit_status_effect",
+         "material": {
+            "name": "materials/billboard.material.json",
+            "samplers": [
+               {
+                  "name": "albedoMap",
+                  "map": "/combat_plus/data/horde/materials/thoughts/block/block_.png",
+                  "numAnimationFrames": 20,
+                  "frameRate": 24,
+                  "numLoops": 1
+               }
+            ]
+         },
+         "width": 3,
+         "height": 3,
+         "xOffset": 0,
+         "yOffset": 0.15,
+         "bone": "ATTOVERCOG"
+      },
+      "block_sound": {
+         "type": "sound_effect",
+         "start_time": 0,
+         "loop": false,
+         "duration": 400,
+         "min_distance": 45,
+         "falloff": 7,
+         "volume": 65,
+         "max_instances": 8,
+         "track": {
+            "type": "one_of",
+            "items": [
+               "combat_plus:sounds:block_1",
+               "combat_plus:sounds:block_2",
+               "combat_plus:sounds:block_3",
+               "combat_plus:sounds:block_4",
+               "combat_plus:sounds:block_5",
+               "combat_plus:sounds:block_6"
+            ]
+         }
+      }
+   }
+}

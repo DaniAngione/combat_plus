@@ -1,0 +1,11 @@
+{
+   "components": {
+      "stonehearth:equipment_piece": {
+         "proficiency_attribute": "intellect",
+         "modifier": 1.2,
+         "equipment_types": [
+            "intellect"
+         ]
+      }
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "type": "effect",
+   "tracks": {
+      "unit_status_effect": {
+         "type": "unit_status_effect",
+         "material": {
+            "name": "materials/billboard.material.json",
+            "samplers": [
+               {
+                  "name": "albedoMap",
+                  "map": "/combat_plus/data/horde/materials/thoughts/miss/miss_.png",
+                  "numAnimationFrames": 20,
+                  "frameRate": 25,
+                  "numLoops": 1
+               }
+            ]
+         },
+         "width": 3,
+         "height": 3,
+         "xOffset": 0,
+         "yOffset": 0.75,
+         "bone": "ATTOVERCOG"
+      },
+      "miss_sound": {
+         "type": "sound_effect",
+         "start_time": 0,
+         "loop": false,
+         "duration": 400,
+         "min_distance": 45,
+         "falloff": 7,
+         "volume": 65,
+         "max_instances": 8,
+         "track": {
+            "type": "one_of",
+            "items": [
+               "combat_plus:sounds:miss_1",
+               "combat_plus:sounds:miss_2",
+               "combat_plus:sounds:miss_3",
+               "combat_plus:sounds:miss_4",
+               "combat_plus:sounds:miss_5",
+               "combat_plus:sounds:miss_6",
+               "combat_plus:sounds:miss_7",
+               "combat_plus:sounds:miss_8"
+            ]
+         }
+      }
+   }
+}

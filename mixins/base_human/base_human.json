@@ -1,0 +1,101 @@
+{
+   "components": {
+      "stonehearth:job": {
+         "level_up_data": {
+            "level_up_perk_description": "i18n(combat_plus:stonehearth_mixins.base_human.job.level_up_perk_description)"
+         }
+      },
+      "stonehearth:attributes": {
+         "max_health_adjustment": {
+            "type": "derived",
+            "private": true,
+            "equation": "6 + body"
+         },
+         "intellect_adjustment": {
+            "type": "random_range",
+            "private": true,
+            "base": 1,
+            "max": 9
+         },
+         "intellect": {
+            "type": "derived",
+            "equation": "mind * 10 + intellect_adjustment"
+         },
+         "awareness_adjustment": {
+            "type": "random_range",
+            "private": true,
+            "base": 1,
+            "max": 9
+         },
+         "awareness": {
+            "type": "derived",
+            "equation": "mind * 10 + awareness_adjustment"
+         },
+         "dexterity_adjustment": {
+            "type": "random_range",
+            "private": true,
+            "base": 1,
+            "max": 9
+         },
+         "dexterity": {
+            "type": "derived",
+            "equation": "(body * 10 + awareness) / 2 + dexterity_adjustment"
+         },
+         "menace": {
+            "type": "derived",
+            "equation": "((muscle * 2) + dexterity + courage) / 4"
+         },
+         "additive_attack_modifier": {
+            "type": "basic",
+            "value": 0
+         },
+         "multiplicative_attack_modifier": {
+            "type": "basic",
+            "value": 1
+         },
+         "additive_dodge_modifier": {
+            "type": "basic",
+            "value": 0
+         },
+         "multiplicative_dodge_modifier": {
+            "type": "basic",
+            "value": 1
+         },
+         "target_difficulty": {
+            "type": "derived",
+            "equation": "10 + (dexterity / 10)"
+         },
+         "critical_chance": {
+            "type": "derived",
+            "equation": "0.01 + (dexterity * 0.002)"
+         },
+         "multiplicative_target_difficulty": {
+            "type": "basic",
+            "value": 1
+         },
+         "additive_target_difficulty": {
+            "type": "basic",
+            "value": 0
+         },
+         "max_guts": {
+            "type": "derived",
+            "equation": "1 + ((stamina * 2) + willpower) / 10"
+         },
+         "max_health": {
+            "type": "derived",
+            "equation": "90 + total_level * max_health_adjustment + stamina"
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:incapacitate_data": {
+         "on_incapacitate_guts_subtraction": 1,
+         "incapacitate_guts_hourly_decrease": 1,
+         "rescued_guts_hourly_recovery": {
+            "on_ground": 0.25,
+            "in_unowned_bed": 0.375,
+            "in_own_bed": 0.5
+         }
+      }
+   }
+}

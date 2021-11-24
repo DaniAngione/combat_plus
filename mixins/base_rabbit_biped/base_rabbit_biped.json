@@ -1,0 +1,50 @@
+{
+   "components": {
+      "stonehearth:job": {
+         "level_up_data": {
+            "level_up_perk_description": "i18n(combat_plus:stonehearth_mixins.base_human.job.level_up_perk_description)"
+         }
+      },
+      "stonehearth:attributes": {
+         "max_health_adjustment": {
+            "type": "derived",
+            "private": true,
+            "equation": "4 + body"
+         },
+         "intellect": {
+            "type": "derived",
+            "equation": "mind * 11 + intellect_adjustment"
+         },
+         "awareness": {
+            "type": "derived",
+            "equation": "mind * 12 + awareness_adjustment"
+         },
+         "dexterity": {
+            "type": "derived",
+            "equation": "(body * 12 + awareness) / 2 + dexterity_adjustment"
+         },
+         "menace": {
+            "type": "derived",
+            "equation": "(muscle + (courage * 3)) / 4"
+         },
+         "max_health": {
+            "type": "derived",
+            "equation": "80 + total_level * max_health_adjustment + stamina"
+         },
+         "target_difficulty": {
+            "type": "derived",
+            "equation": "12 + (dexterity / 10)"
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:incapacitate_data": {
+         "incapacitate_guts_hourly_decrease": 1.5,
+         "rescued_guts_hourly_recovery": {
+            "on_ground": 0.4,
+            "in_unowned_bed": 0.6,
+            "in_own_bed": 0.8
+         }
+      }
+   }
+}

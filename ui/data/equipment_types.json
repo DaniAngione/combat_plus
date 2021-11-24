@@ -1,0 +1,27 @@
+{
+   "bow": {
+      "name": "i18n(combat_plus:ui.game.unit_frame.equipment_types.bow)"
+   },
+   "crossbow": {
+      "name": "i18n(combat_plus:ui.game.unit_frame.equipment_types.crossbow)"
+   },
+   "mainhand": {
+      "name": "i18n(combat_plus:ui.game.unit_frame.equipment_types.mainhand)"
+   },
+   "twohanded": {
+      "name": "i18n(combat_plus:ui.game.unit_frame.equipment_types.twohanded)"
+   },
+   "offhand": {
+      "name": "i18n(combat_plus:ui.game.unit_frame.equipment_types.offhand)"
+   },
+   "cleric_tome": {
+      "name": "i18n(combat_plus:ui.game.unit_frame.equipment_types.cleric_tome)"
+   },
+   "cleric_scepter": {
+      "name": "i18n(combat_plus:ui.game.unit_frame.equipment_types.cleric_scepter)",
+      "icon": "/stonehearth_ace/ui/images/equipment_types/mainhand.png",
+      "overrides": [
+         "mainhand"
+      ]
+   }
+}
